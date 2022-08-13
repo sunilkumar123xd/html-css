@@ -1,0 +1,133 @@
+/* session 2 */
+input {
+  width: 30%;
+  padding: 15px;
+  margin: 5px;
+  margin-top: 60px;
+
+}
+
+input:focus {
+  /* outline: none; */
+  border: 1px solid #f5634b;
+  outline: none;
+
+}
+
+
+
+
+textarea {
+  width: 61%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+textarea::-moz-focus-inner {
+  outline: none;
+
+}
+
+textarea:focus {
+  border: 1px solid orange;
+  outline: none;
+}
+
+
+
+.btsend {
+  height: 50px;
+  width: 180px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 0px solid;
+  background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+
+}
+
+.btsend:hover {
+  background: linear-gradient(to left, #fe9418 0%, #f5634b 100%);
+
+}
+
+.btsend a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+
+}
+
+.btsend:hover button {
+  background-color: #fe9418;
+
+}
+
+/* iframe */
+
+
+.map iframe {
+  margin-top: 100px;
+  width: 100%;
+  background-color: black;
+
+}
+
+/* box */
+
+.gmfits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gmfit {
+  height: 270px;
+  width: 300;
+  /* border: 1px solid black; */
+  background-color: white;
+  margin: 10px;
+  padding: 30px 10px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  transform: translateY(-140px);
+
+}
+
+.gmfit h6 {
+  margin-top: 20px;
+  font-size: 15px;
+  color: gray;
+}
+
+.gmfit h2 {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.gmfit h3 {
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.time {
+  color: gray;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .form input {
+    width: 100%;
+    /* display: block; */
+  }
+
+  .form textarea {
+    width: 100%;
+  }
+
+  .gmfits {
+    /* display: inline-block; */
+    flex-direction: column;
+    width: 100%;
+  }
+
+}

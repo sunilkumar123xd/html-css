@@ -1,0 +1,43 @@
+table,
+th,
+td {
+  border: 2px solid rgb(173, 13, 13);
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+  font-size: 30px;
+
+}
+
+th {
+  background-color: red;
+}
+
+td:nth-child(odd) {
+  background-color: orange;
+}
+
+td:nth-child(even) {
+  background-color: rgb(11, 21, 201);
+}
+
+td:nth-child(3) {
+  background-color: aqua;
+
+}
+
+th:hover {
+  background-color: gold;
+  color: aliceblue;
+}
+
+td:hover {
+  background-color: brown;
+  color: white;
+}

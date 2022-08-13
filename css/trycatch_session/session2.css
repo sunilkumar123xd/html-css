@@ -1,0 +1,95 @@
+body {
+  /* background-image: url(img/img1.jpg); */
+  background-repeat: no-repeat;
+  height: 3000px;
+  /* background-size: 100% 100%; */
+  background-size: contain;
+
+}
+
+/* background possition */
+
+.demo {
+  height: 400px;
+  width: 400px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  background-image: url(img/logo1.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-position: left; */
+  /* background-position: right; */
+  /* background-position: bottom; */
+  /* background-position: top; */
+  background-position: top right;
+  /* background-position: top left; */
+  /* background-position: bottom left; */
+  /* background-position: right bottom; */
+  /* background-position: center center; */
+}
+
+/* margin_css */
+
+.margin_css {
+  background-color: pink;
+  height: 400px;
+  width: 400px;
+  /* margin: 100px; */
+  /* margin: 140px 10px; */
+  /* margin: 10px 50px 70px; */
+  /* margin-left: 100px; */
+  /* margin-right: 120px; */
+  /* margin-top: 120px; */
+  /* margin-bottom: 120px; */
+  margin: 120px auto;
+
+}
+
+/* padding_css */
+
+.padding_css {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  /* width: 300px; */
+  /* padding: 120px;
+  color: aliceblue;
+  padding: 50px 170px;
+  padding: 40px 70px 10px;
+  padding: 10px 130px 80px 150px; */
+  color: aliceblue;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+/* text_align */
+
+.box_modal {
+  background-color: aqua;
+  color: black;
+  border: 2px solid black;
+  margin: 100px 50px;
+  padding: 20px;
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: justify;
+
+}
+
+/* float */
+
+.box {
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: aqua;
+  padding: 10px;
+  float: left;
+  float: right;
+  float: none;
+}

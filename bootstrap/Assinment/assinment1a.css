@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.gray {
+  background-color: rgb(246, 249, 250);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team p {
+  margin-top: 20px;
+}
+
+.inner {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  position: relative;
+
+
+}
+
+.inner img {
+  height: 300px;
+  width: 100%;
+
+
+}
+
+.ican {
+  background-color: rgba(255, 255, 255, 0.500);
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  margin-top: 20px;
+  /* display: none; */
+
+
+}
+
+.ican a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #052c3f;
+
+}
+
+.ican:hover {
+  /* display: block; */
+
+}
+
+.inner h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #052c3f;
+
+}
+
+.inner h6 {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(170, 170, 189);
+}
+
+/* .session 2 */
+.port {
+  text-align: center;
+}
+
+.para {
+  height: 300px;
+  /* background-color: aqua; */
+  /* position: relative; */
+}
+
+.card {
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.500);
+  bottom: 100px;
+}
+
+.para img {
+  height: 300px;
+
+}
+
+.card a {
+  background-color: aqua;
+}
+
+
+
+/* sessin 8 */

@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.first {
+  background-color: orange;
+}
+
+th {
+  background-color: pink;
+  height: 70px;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+td {
+  text-align: right;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+.last {
+  background-color: brown !important;
+  color: aliceblue;
+}

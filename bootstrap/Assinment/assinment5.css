@@ -1,0 +1,204 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+/* session 1 */
+.container-happy {
+  background-color: rgb(26, 188, 156);
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-div h1 {
+  color: white;
+  font-size: 70px;
+  padding: 20px;
+
+
+}
+
+.left {
+  margin-right: 100px;
+  color: white;
+
+}
+
+
+
+
+.side {
+  margin-left: 100px !important;
+}
+
+.main-div h2 {
+  color: white;
+  padding: 20px;
+
+
+}
+
+.line {
+  border: 2px solid black;
+  height: 5px;
+  width: 250px;
+  background-color: white;
+  border: 0px solid;
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(26, 188, 156);
+
+
+  top: -30px;
+  left: 100px;
+}
+
+
+/* session 2 */
+
+.box img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.box {
+  position: relative;
+}
+
+.box::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+
+  height: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: 0;
+  /* transition: .5s ease; */
+}
+
+.box:hover::before {
+  height: 100%;
+}
+
+.head h1 {
+  color: rgb(44, 62, 80);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.port {
+  border: 2px solid black;
+  height: 5px;
+  width: 250px;
+  background-color: rgb(44, 62, 80);
+  border: 0px solid;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.ican {
+  font-size: 100px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+
+  color: white;
+  /* display: none; */
+}
+
+.ican a:hover {
+  display: block;
+}
+
+.por {
+  position: absolute;
+  font-size: 40px;
+  color: rgb(44, 62, 80);
+  background-color: white;
+
+
+  top: -30px;
+  left: 100px;
+
+}
+
+/* session 3 */
+
+.container-fluid-tx {
+  background-color: rgb(26, 188, 156);
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.about {
+  border: 2px solid black;
+  height: 5px;
+  width: 250px;
+  background-color: white;
+  border: 0px solid;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.abt {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(26, 188, 156);
+  top: -30px;
+  left: 100px;
+}
+
+.text p {
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+
+}
+
+.hea h1 {
+  color: white;
+  font-size: 50px;
+
+
+}
+
+.tr {
+  text-decoration: none;
+  padding: 50px;
+}
+
+.tr a {
+  text-decoration: none;
+  /* color: white; */
+
+}
+
+/* session 5 */
+
+.container-fluid-footer {
+  background-color: rgb(44, 62, 80);
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.port {
+  text-align: center;
+}
+
+.new li {
+  display: inline-block;
+
+}
+
+.new li a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: gray;
+  background-color: aqua;
+
+}
+
+
+.inner {
+  /* position: relative; */
+}
+
+.images img {
+  width: 300px;
+}
+
+.images {
+  /* position: relative; */
+
+}
+
+.ican {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  /* display: none; */
+}
+
+
+
+
+
+
+
+}

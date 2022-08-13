@@ -1,0 +1,48 @@
+.main_div {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: red;
+    display: table;
+    text-align: center;
+
+
+}
+
+.inner_div {
+    background-color: yellow;
+    display: table-cell;
+    border: 2px solid black;
+    vertical-align: middle;
+
+}
+
+.inner_div:nth-child(2) {
+    vertical-align: top;
+}
+
+.flex_div {
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-direction: column; */
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+
+}
+
+.inner_flex {
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    background-color: blue;
+
+
+}
+
+.inner_flex img {
+    width: 100%;
+}

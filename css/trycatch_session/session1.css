@@ -1,0 +1,23 @@
+.div1 {
+  height: 200px;
+  width: 300px;
+  border: 2px solid green;
+  background-color: red;
+  border-width: 50px 30px 40px 3px;
+  border-width: 30px 10px 50px;
+  border-width: 15px 50px;
+
+}
+
+.div2 {
+  height: 450px;
+  width: 700px;
+  border: 2px solid black;
+  background: greenyellow;
+  border-radius: 50%;
+  /* border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px; */
+
+}

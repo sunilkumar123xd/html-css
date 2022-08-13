@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.main_div {
+  border: 1px solid;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  text-align: right;
+  list-style: none;
+  padding-right: 40px;
+}
+
+.menu>ul>li {
+  display: inline-block;
+  padding: 10px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.last_div {
+  height: 200px;
+  width: 100%;
+  border: 1px solid red;
+  background-color: red;
+}
+
+.link .submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: white;
+  border: 2px solid black;
+  top: 100%;
+  width: 150px;
+}
+
+.link:hover .submenu {
+  display: block;
+}
+
+.link:hover .submenu li {
+  padding: 10px;
+  display: block;
+}

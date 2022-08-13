@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.boxes {
+  width: 655px;
+  margin:100px auto 0;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  background-color: pink;
+  font-style: italic;
+
+
+}
+
+.box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+
+}
+
+.para {
+  margin-top: 70px;
+}
+
+.box:hover h1 {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+
+
+.box:hover {
+  background-color: palegreen;
+  color: red;
+
+}
+
+.box:hover p {
+  background-color: white;
+}

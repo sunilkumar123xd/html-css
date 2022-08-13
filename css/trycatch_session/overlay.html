@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.5);
+
+  color: #f1f1f1; 
+  width: 100%;
+  
+  opacity: 0;
+ 
+  transition: .5s ease;
+  
+  
+  font-size: 20px;
+  padding: 20px;
+  
+  text-align: center;
+} 
+
+.container:hover .overlay {
+  opacity: 1;
+
+}  */
+
+
+
+
+    /* bottom overlay */
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+
+      background:
+        linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+      overflow: hidden;
+      width: 100%;
+      height: 0%;
+      opacity: 1;
+      transition: .5s ease;
+    }
+
+    .container:hover .overlay {
+      height: 100%;
+    }
+
+    .text {
+      color: rgb(6, 1, 1);
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <div class="container">
+  <img src="img/img2.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    My Name is dev
+  </div>
+</div> -->
+
+
+
+  <div class="container">
+    <img src="img/img2.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">Hello dev</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

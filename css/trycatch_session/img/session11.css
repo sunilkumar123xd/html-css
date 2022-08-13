@@ -1,0 +1,65 @@
+.background-gradient{
+    height: 900px;
+    background-color: red;
+    background: #cdf;
+    background-color: rgba(119, 33, 200 ,0.7);
+
+    background-image: linear-gradient(red,green);
+
+    background: linear-gradient(pink,blue,red);
+
+    background-image: linear-gradient(to left,pink,blue);
+
+    background-image: linear-gradient(to right,pink,blue);
+
+    background-image: linear-gradient(to top,pink,blue);
+
+    background-image: linear-gradient(to bottom,pink,blue);
+
+    background-image: linear-gradient(to top,rgb(255, 255, 0),rgb(0, 255, 255));
+    background-image: linear-gradient(to top,rgba(255, 255, 0,0.5),rgba(0, 255, 255,0.7));
+    background-image: linear-gradient(90deg,red,blue);
+    background-image: linear-gradient(red 50%,blue);
+
+    background-image: repeating-linear-gradient(pink 70%,yellow 30%,blue);
+
+    background-image: radial-gradient(pink,yellow,blue);
+    background-image: repeating-radial-gradient(pink,yellow,blue);
+    background-image: repeating-radial-gradient(circle,pink 70%,yellow 10%,blue);
+
+
+}
+.data{
+    background-color: yellow;
+    padding: 30px; 
+    border: 4px dotted black;
+    background-clip: padding-box;
+    background-clip: content-box;
+    background-clip: border-box;   
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.module{
+    max-width: 250px;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(to bottom,#ff0000,#000) 1 100%;
+}
+h1{
+    -webkit-background-clip: text;
+    background:linear-gradient(red,pink) ;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    padding: 1rem;
+    color: white;
+    border-width: 30px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(to bottom,red ,rgba(0,0,0,0)) 1 100%;
+
+}

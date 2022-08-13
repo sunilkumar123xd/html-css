@@ -1,0 +1,146 @@
+.abs1 {
+    height: 500px;
+    width: 10%;
+    background-color: pink;
+    position: absolute;
+    left: 20px;
+    /* opacity: 0.6; */
+    z-index: 1;
+
+}
+
+.abs2 {
+    height: 500px;
+    width: 10%;
+    background-color: pink;
+    position: absolute;
+    right: 20px;
+    /* opacity: 0.6; */
+    z-index: 1;
+}
+
+.abs3 {
+    height: 100px;
+    width: 95%;
+    background-color: aqua;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+
+}
+
+.abs4 {
+    height: 100px;
+    width: 95%;
+    background-color: aqua;
+    position: absolute;
+    top: 30%;
+    /* z-index: 1; */
+
+
+}
+
+.BOX1 {
+    height: 100px;
+    width: 400px;
+    background-color: pink;
+    border: 30px solid red;
+    padding: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.BOX2 {
+    height: 100px;
+    width: 400px;
+    background-color: pink;
+    border: 30px solid red;
+    padding: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    /* box-sizing: border-box; */
+}
+
+.main_div {
+    background-image: url(img/img1.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+}
+
+.inner_div {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+}
+
+.main_div:hover .inner_div {
+    display: block;
+}
+
+form {
+    border: 3px solid black;
+    padding: 20px;
+    width: 50%;
+    margin: 150px auto;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding: 20px 0;
+    color: blue;
+}
+
+input {
+    width: 95%;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 10px;
+    /* color: red; */
+    /* border: none; */
+
+}
+
+input:focus {
+    outline: none;
+    outline-color: red;
+    /* border: 2px solid blue; */
+    outline-style: dashed;
+    outline-width: 4px;
+
+}
+
+::placeholder {
+    color: red;
+    font-size: 13px;
+}
+
+.text input::placeholder {
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+input[type="text"]::placeholder {
+    color: yellow;
+}
+
+input[type="submit"] {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 20%;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}

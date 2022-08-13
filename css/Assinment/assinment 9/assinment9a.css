@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.container{
+  padding: 0 120px;
+}
+
+.new_chair{
+ position: absolute;
+ top:40%; 
+ left:10%;
+ 
+  
+}
+
+.chair {
+  
+  position: relative;
+  background: url(img/img1.jpg) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+button:hover{
+  background-color: gray;
+}
+
+.newar {
+  display: block;
+  text-align: right;
+  
+}
+
+.newar li {
+  display: inline;
+  margin: 10px;
+  font-size: 12px;
+  
+  padding: 20px;
+  text-transform: uppercase;
+
+}
+.newar li a{
+  text-decoration: none;
+}
+
+.new_chair {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.new_chair p {
+  margin-bottom: 20px;
+}
+
+/* doll project 2 */
+
+.Explore {
+  text-align: right;
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+.dolls {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.doll {
+  width: 33.33%;
+  margin: 10px;
+  text-align: center;
+}
+
+.Explore {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Explore p {
+  margin-top: 40px;
+}
+
+.doll img {
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+}
+
+.doll button {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.doll button:hover {
+  background-color: gray;
+}
+.doll button{
+  top: -20px;
+}
+
+
+
+
+
+
+/* text image projectdiv 3 */
+.main_div {
+  display: flex;
+  padding: 100px;
+  text-align: left;
+}
+
+.left_div{
+  padding-right: 300px;
+}
+
+.left_div h6 {
+  margin-bottom: 10px;
+
+}
+
+.left_div h1 {
+  margin-bottom: 10px;
+  
+}
+
+.left_div p {
+  /* padding: 20px; */
+  font-size: 15px;
+}
+
+.left_div button {
+  margin-top: 30px;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+
+.left_div button:hover {
+  background-color: gray;
+}
+
+.right_div {
+  float: right;
+
+}
+
+.right_div img {
+  height: 400px;
+  width: 400px;
+
+}
+
+
+/* cloth project 4 */
+
+
+
+.cloths {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloth {
+  margin: 10px;
+  margin-top: 50px;
+
+}
+
+.cloth img {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  text-align: center;
+  font-size: 25px;
+}
+
+.dm {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.dm button {
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  color: white;
+}
+
+.dm button:hover {
+  background-color: gray;
+}
+
+
+/* project 5 */
+.footer {
+  background-color: gray;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.text_black {
+  display: flex;
+}
+
+ul {
+  margin: 30px;
+  list-style-type: none;
+  margin-top: 50px;
+  color: white;
+}
+
+.right {
+  display: flex;
+
+}
+
+
+.text_right {
+  width: 100%;
+  /* text-align: right; */
+  padding: 20px;
+  margin-left: 100px;
+}

@@ -1,0 +1,100 @@
+table,th,td{
+    border: 2px solid black;
+    /* border-collapse: collapse;
+    border-collapse: separate; */
+    
+}
+th,td{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    /* text-align: center;
+    text-align: right; */
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: middle;
+    
+    
+}
+/* th{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:nth-child(odd){
+    background-color: blue;
+}
+tr:nth-child(5){
+    background-color: red;
+}
+th:hover{
+    background-color: aqua;
+}
+td:hover{
+    background-color: rebeccapurple;
+    color: white;
+} */
+td:nth-child(even){
+    background-color: blueviolet;
+    color: aqua;
+}
+td:nth-child(odd){
+    background-color: bisque;
+    color: brown;
+}
+th{
+    background-color: chartreuse;
+}
+.nevbar{
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: right;
+    padding: 20px;
+
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    border-right: dotted;
+
+}
+a{
+    text-decoration: none;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+/* .box1:hover:nth-child(2n+2){
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+} */
+.box1:hover:nth-child(2n+2){
+    background-image: url(img/logo1.png);
+    background-size: cover;
+}
+.img_div{
+    height: 100vh;
+    background-image: url(img/img1.jpg);
+    display: table;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    display: table-cell;
+    font-size: 40px;
+    color: aliceblue;
+    vertical-align: middle;
+    border: 3px solid red;
+    background-color: pink;
+    opacity: 0.8;
+}

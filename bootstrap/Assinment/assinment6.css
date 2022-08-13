@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container-main-div {
+  background-image: url(./hero-bg.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.container-main-div a {
+  text-align: right;
+}
+
+.offcanvas {
+  /* background-color: rgba(0, 0, 0, 0.9); */
+}
+
+.offcanvas-body {
+  color: white;
+}
+
+.container-main-div a {
+  left: right;
+}
+
+
+.container-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.offcanvas-body {
+  text-align: center;
+}
+
+.offcanvas-body img {
+  border-radius: 50px;
+  border: 5px solid gainsboro;
+}
+
+.ican {
+  margin-top: 20px;
+}
+
+
+.ican a {
+  margin: 5px;
+  font-size: 18px;
+  background-color: #212431;
+  display: inline;
+  border-radius: 50px;
+  color: white;
+  padding: 8px 10px;
+
+}
+
+.ican a:hover {
+  background-color: #149ddd;
+}
+
+.navar {
+  margin-top: 50px;
+}
+
+.navar li {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 20px;
+
+}
+
+.navar li a {
+  text-decoration: none;
+  color: gray;
+
+}
+
+.navar li a i {
+  margin: 10px;
+}
+
+.navar a:hover {
+  color: white;
+}
+
+.navar a i:hover {
+  color: #149ddd;
+
+}
+
+.last {
+  margin-top: 110px;
+}
+
+.last a {
+  text-decoration: none;
+  color: red;
+}

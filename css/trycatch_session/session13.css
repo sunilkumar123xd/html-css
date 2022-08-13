@@ -1,0 +1,131 @@
+.pagination li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 30px;
+}
+
+.active {
+    background-color: navy;
+    color: white;
+}
+
+a:hover:not(.active) {
+    background-color: pink;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+/* ul {
+    background-color: pink;
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+a::after {
+    content: "";
+    height: 50px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    transition: transform 2s;
+    transform: scaleX(0);
+    transform-origin: left;
+
+} */
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+.main_div1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid red;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.icon_div {
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: table;
+
+
+}
+
+.icon_div i {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    transform: scale(0, 0);
+
+}
+
+.main_div1:hover .icon_div i {
+    transform: scale(1, 1);
+    color: red;
+    transition: 1s ease-in-out;
+}
+
+.text_div {
+    margin-top: 20px;
+
+}
+
+.main_div1::after {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    content: "";
+    padding: 20px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.2s;
+}
+
+.main_div1:hover::after {
+    transform: scaleX(1);
+
+}
+
+.main_div1:hover .icon_div {
+    background-color: white;
+}
+
+.main_div1:hover .text_div {
+    color: white;
+}

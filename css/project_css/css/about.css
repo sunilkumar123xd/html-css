@@ -1,0 +1,284 @@
+.full-width-div-container-run {
+  background-image: url(../project2/img/bg-image-2-1.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container-runs {
+  background-color: rgba(0, 0, 0, 0.800);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-runs h4 {
+  margin-top: 20px;
+}
+
+.container-runs h4 a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.container-runs h4 a span {
+  color: #f5634b;
+}
+
+.container-runs h1 {
+  margin-top: 20px;
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: 'Barlow Condensed', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+
+
+/* project 2 */
+
+.container-main-div-fitnesh {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px;
+
+}
+
+.container-max-div-fitneshs {
+  display: flex;
+  padding: 0px 40px;
+
+}
+
+.container-rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-max-div-fitneshs img {
+  /* height: 500px; */
+  width: 250px;
+  padding: 0 10px;
+}
+
+.container-right h1 {
+  color: gray;
+  font-size: 60px;
+  margin-top: 30px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container-right h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+
+
+}
+
+.container-right h2 span {
+  color: #f5634b;
+
+}
+
+.container-right p {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  /* font-family: sans-serif; */
+
+}
+
+.bt {
+  margin-top: 40px;
+  height: 50px;
+  width: 180px;
+  border: 0px solid;
+  background-color: #f5634b;
+}
+
+.bt a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .container-max-div-fitneshs {
+    display: block;
+    width: 100%;
+
+
+  }
+
+  .container-max-div-fitneshs img {
+    display: block;
+    /* width: 100%; */
+
+  }
+
+  .container-max-div-fitneshs {
+    width: 100%;
+
+  }
+
+
+  .container-right {
+    width: 100%;
+    font-size: 10px;
+    /* padding: 0px 15px; */
+    flex-direction: column;
+
+
+  }
+
+}
+
+
+
+/* project 3 */
+
+.container-our {
+  text-align: center;
+  margin-top: 80px;
+  position: relative;
+}
+
+
+.container-our h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+
+
+
+.container-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 230px;
+  margin-top: 50px;
+}
+
+.container-boxe {
+
+  width: 31.33%;
+  padding: 20px;
+  height: 250px;
+  margin: 10px;
+  transition: all .5 s;
+}
+
+.container-boxe h3 {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-top: 20px;
+
+}
+
+.container-boxe p {
+  margin-top: 30px;
+
+}
+
+.container-boxe:nth-child(odd) {
+  background-color: #181a23;
+  color: white;
+}
+
+.container-boxe:nth-child(even):hover {
+  background-color: #181a23;
+  color: white;
+
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .container-boxe {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .container-boxes {
+    padding: 0px 15px;
+
+
+  }
+}
+
+
+/* section 4 */
+.container-man-galle {
+  text-align: center;
+  margin-top: 70px;
+  position: relative;
+}
+
+.container-man-galle h1::after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  border: 1px solid #F5634B;
+  background-color: #F5634B;
+  position: absolute;
+  top: -20px;
+  margin-left: -100px;
+}
+
+
+
+
+.container-man-galle h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container-man-galle p {
+  margin-bottom: 20px;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* max-width: 100%; */
+}
+
+
+.gallery img {
+  width: 379px;
+
+}
+
+@media screen and (max-width:767) {
+  .ontainer-boxe {
+    /* display: block; */
+    width: 100%;
+  }
+
+  .ontainer-boxes {
+    display: inline-block;
+    width: 100%;
+    flex-direction: column;
+  }
+}

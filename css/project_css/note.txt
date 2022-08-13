@@ -1,0 +1,18 @@
+a,button,span,img ---->display: inline;
+
+
+div,h1-h6,p ---->display: block;
+
+
+
+
+
+
+MEDIA QUERY FIXES
+Desktop       Mobile
+------------------
+Flex          Block
+Width(%,px)   Width(100%)
+Margin        Reduce Margin(max 20px)
+Padding       Reduce padding(max 20px)
+Font size     Reduce font size max 32px

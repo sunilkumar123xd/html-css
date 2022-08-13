@@ -1,0 +1,106 @@
+.para {
+  background-color: blue;
+}
+
+
+.demo {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  margin: 10px;
+  /* display: inline; */
+  display: inline-block;
+  /* display: block; */
+}
+
+.para:hover .demo {
+  display: block;
+}
+
+.new_demo {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 10px;
+  display: inline-block;
+}
+
+img {
+  /* display: inline; */
+  /* display: inline-block; */
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  background-color: pink;
+  text-align: center;
+  padding: 20px;
+}
+
+.text p {
+  display: none;
+}
+
+.text:hover p {
+  display: block;
+}
+
+.text2 {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  background-image: url(img/demo1.jpg);
+}
+
+.text2 h1 {
+  display: none;
+}
+
+.text2:hover h1 {
+  display: block;
+}
+
+.btn {
+  background-color: pink;
+  height: 50px;
+  width: 100px;
+  border: pink;
+}
+
+.menu ul {
+  list-style: none;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  padding: 10px;
+  display: none;
+
+}
+
+.menu ul li {
+  margin-top: 15px;
+}
+
+.menu:hover ul {
+  display: block;
+}
+
+.nevbar {
+  background-color: aqua;
+  text-align: right;
+  display: block;
+  list-style: none;
+}
+
+.nevbar li a {
+  text-decoration: none;
+
+}
+
+.nevbar li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: capitalize;
+}

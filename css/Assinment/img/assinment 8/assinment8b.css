@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 247, 244);
+  font-family: sans-serif;
+}
+
+.boxes {
+  width: 1300px;
+
+
+}
+
+.box {
+  width: 300px;
+  border: 0px solid black;
+  float: left;
+  background-color: white;
+  margin-left: 120px;
+  margin-top: 100px;
+
+
+
+}
+
+img {
+  height: 250px;
+  width: 300px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}

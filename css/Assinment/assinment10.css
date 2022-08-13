@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ican li {
+  display: inline-block;
+}
+
+.ican li a {
+  text-decoration: none;
+  margin: 20px;
+  color: rgb(18, 245, 14);
+}
+
+.ican a:hover {
+  color: green;
+}
+
+.gmails a {
+  margin-left: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  color: gray;
+}
+
+.nevar-reaf {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+
+}
+
+.nevar li {
+  display: inline-block;
+
+}
+
+.nevar li a {
+  text-decoration: none;
+}
+
+
+.ican {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ican li {
+  display: inline-block;
+
+}
+
+
+.ican li a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+.images {
+  background-image: url(img/carousel-1.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+
+}
+
+.container-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background-color: rgba(0, 0, 0, 0.750);
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+
+
+}
+
+
+.image h4 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.image h1 {
+  color: white;
+  font-size: 100px;
+  padding: 10px 20px;
+}

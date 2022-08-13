@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+}
+
+/* 320px - 480px: mobail device.
+480px - 768px: ipads,Tables.
+769px - 1200px: small screens, leptops.
+1025px - 1200px: desktops, large screens.
+1201px ans more - extra large screens, tv. */
+
+.abc {
+    color: red;
+    font-size: 90px;
+}
+
+.d-flex {
+    background-color: navy;
+    padding: 20px;
+    display: flex;
+}
+
+.d-flex .div1 {
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width:998px) {
+    .abc {
+        font-size: 100px;
+        color: yellow;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .abc {
+        font-size: 50px;
+        color: green;
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .d-flex {
+        /* display: block; */
+        flex-direction: column;
+    }
+
+    .d-flex .div1 {
+        margin-top: 20px;
+    }
+}
+
+
+.main_div2 {
+    margin-top: 20px;
+    background-color: pink;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_div {
+    color: green;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 600px;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.img_div {
+    border: 2px solid black;
+}
+
+.img_div img {
+    height: 400px;
+    width: 500px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .main_div2 {
+        /* display: block; */
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .text_div {
+        width: 250px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .img_div img {
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+.img_dev {
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+    .img_dev {
+        /* width: 100%; */
+        height: auto;
+    }
+}
+
+
+.background {
+    background-image: url("img/img2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+    .background {
+        background-size: contain;
+
+    }
+}

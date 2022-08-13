@@ -1,0 +1,171 @@
+.div1 p {
+    color: red;
+}
+
+.div1>p {
+    color: pink;
+}
+
+.div1+p {
+    color: green;
+}
+
+p+div {
+    color: aqua;
+}
+
+h1~h2 {
+    color: blue;
+}
+
+
+ul:hover>li {
+    color: red;
+}
+
+.img1:hover+img {
+    border-radius: 50%;
+}
+
+/* p::first-letter {
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+p::first-line {
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+} */
+
+p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+h1::after {
+    background-image: url(img/img2.jpg);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+h1::before {
+    background-image: url(img/img2.jpg);
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-shadow: 1px 2px;
+    text-shadow: 3px 5px 4px red;
+    text-shadow: 6px 4px 2px gray;
+}
+
+h3::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+
+}
+
+h3 {
+    color: red;
+    position: relative;
+}
+
+.main_div {
+    background-color: pink;
+    height: 100px;
+    width: 400px;
+    margin: 40px;
+    box-shadow: 2px 3px black;
+    box-shadow: 10px 20px 30px 40px gray;
+    box-shadow: 10px 10px 10px inset gray;
+}
+
+.top-div {
+    box-shadow: 0 -10px 10px 1px #333;
+    height: 100px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.left-div {
+    box-shadow: -20px 0 30px -5px #333;
+    height: 100px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.bottom-div {
+    box-shadow: 0 15px 5px -5px;
+    height: 100px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.right-div {
+    box-shadow: 15px 0 5px 10px;
+    background-color: pink;
+    height: 100px;
+    margin: 20px;
+}
+.demo {
+    text-align: center;
+    
+}
+.demo h2{
+    position: relative;
+
+}
+.demo h2::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 300px;
+    background-color: red;
+    top: 15px;
+    margin-left: 20px;
+}
+.demo h2::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 300px;
+    background-color: red;
+    top: 15px;
+    left: 220px;
+    
+}
+.demo2{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+}
+.demo2::after{
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    left: 20px;
+    background-color: black;
+    top: 20px;
+    /* margin-left: 100px; */
+    
+}

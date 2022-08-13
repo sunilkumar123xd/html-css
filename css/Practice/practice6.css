@@ -1,0 +1,113 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  /* border-collapse: collapse; */
+  /* border-collapse: separate; */
+
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  /* text-align: left;
+  text-align: right;
+  text-align: center; */
+  vertical-align: top;
+  vertical-align: bottom;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+th {
+  background-color: blue;
+}
+
+tr {
+  background-color: green;
+}
+
+tr:nth-child(even) {
+  background-color: red;
+
+}
+
+tr:nth-child(odd) {
+  background-color: yellow;
+}
+
+tr:nth-child(3) {
+  background-color: pink;
+}
+
+th:hover {
+  background-color: pink;
+}
+
+td:hover {
+  background-color: white;
+}
+
+td:nth-child(even) {
+  /* background-color: green; */
+  /* color: white; */
+}
+
+td:nth-child(odd) {
+  /* background-color: red; */
+}
+
+th {
+  color: white;
+}
+
+.nevbar {
+  background-color: pink;
+  text-align: right;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  border-left: dotted;
+}
+a{
+  text-decoration: none;
+}
+
+
+.div1{
+  height: 200px;
+  width: 300px;border: 2px solid red;
+  margin: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+.div1:hover:nth-child(2n+2){
+  background-image: url(img/demo1.jpg);
+  background-size: cover;
+
+}
+.img_div{
+  background-image: url(img/img2.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: table;
+
+}
+.img_div p{
+  font-size: 40px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border: 5px solid red;
+  background-color: pink;
+  opacity: 0.6;
+}

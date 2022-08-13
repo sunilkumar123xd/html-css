@@ -1,0 +1,30 @@
+th,
+td {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+}
+
+th {
+  background-color: red;
+}
+
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+tr:nth-child(even) {
+  background-color: chartreuse;
+}
+
+th:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+td:hover {
+  background-color: pink;
+  color: white;
+}

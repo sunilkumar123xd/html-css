@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* /* session 1  */
+
+.inner {
+  background-image: url(./22.jpg);
+  /* width: 100vw; */
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
+  position: relative;
+
+}
+
+.us {
+  background-color: rgb(34, 58, 102, 0.900);
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  /* left: 0px; */
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+
+}
+
+/* session 2 */

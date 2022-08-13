@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+
+
+.text1 {
+
+  text-transform: lowercase;
+}
+
+.text2 {
+  text-transform: uppercase;
+}
+
+.text3 {
+  text-transform: capitalize;
+}
+
+.para {
+  /* text-decoration:underline; */
+  /* text-decoration:overline; */
+  text-decoration: line-through;
+  /* text-decoration: none; */
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.text {
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  line-height: 2;
+  text-indent: 100px;
+
+}
+
+li {
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  margin: 20px
+}
+
+.demo {
+  background-color: red;
+}
+
+.demo li {
+  background-color: green;
+  list-style-type: square;
+  /* list-style-type: circle;
+  list-style-type: disc;
+  list-style-type: none;
+  list-style-position: inside; */
+  list-style-position: outside;
+
+
+
+}
+
+.para2 {
+  background-color: green;
+}
+
+.para2 li {
+  background-color: yellow;
+  /* list-style-type: upper-alpha; */
+  /* list-style-type: lower-alpha; */
+  /* list-style-type:upper-roman; */
+  list-style-type: lower-roman;
+  /* list-style-position: outside;  */
+  list-style-position: inside;
+
+}
+
+.old {
+  font-family: monospace, cursive;
+
+}
+
+.font {
+  /* font-family: sans-serif; */
+  font-family: 'Joan', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+  font-variant: small-caps;
+  `
+}

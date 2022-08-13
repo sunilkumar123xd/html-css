@@ -1,0 +1,95 @@
+div {
+  padding: 25px;
+  float: right;
+}
+
+.div1 {
+  background-color: red;
+  float: left;
+}
+
+.div2 {
+  background-color: yellow;
+}
+
+.div3 {
+  background-color: pink;
+  float: left;
+}
+
+.demo1 {
+  /* height: 200px; */
+  /* width: 300px; */
+  border: 2px solid black;
+}
+
+.demo1 img {
+  height: 300px;
+  width: 300px;
+  float: right;
+}
+
+.demo2 {
+  border: 2px solid black;
+
+}
+
+.demo2 img {
+  float: right;
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+.text {
+  height: 200px;
+  width: 100px;
+  background-color: pink;
+  padding: 20px;
+  overflow: scroll;
+}
+
+a {
+  background: pink;
+  height: 100px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: black;
+}
+
+a:hover {
+  background-color: red;
+  font-size: 30px;
+  text-decoration: line-through;
+  color: white;
+}
+
+a:active {
+  background-color: green;
+}
+
+.div1 {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.div1:hover {
+  background-color: black;
+}
+
+.div2 {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+}
+.div2:hover{
+  background-image: url(img/img2.jpg);
+}

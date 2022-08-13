@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.div {
+  height: 300px;
+  width: 900px;
+  background-color: antiquewhite;
+  margin: 150px;
+  padding: 50px;
+
+}
+
+.text {
+  width: 400px;
+  padding: 50px;
+  float: left;
+
+}
+
+button {
+  border-radius: 20px;
+  background-color: rgb(233, 233, 26);
+  height: 30px;
+  width: 150px;
+}
+
+.div img {
+  height: 300px;
+  width: 400px;
+  float: left;
+}

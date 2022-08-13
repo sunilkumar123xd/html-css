@@ -1,0 +1,74 @@
+.para1 {
+  text-transform: lowercase;
+}
+
+.para2 {
+  text-transform: uppercase;
+}
+
+.para3 {
+  text-transform: capitalize;
+}
+
+.text {
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.letter {
+  /* letter-spacing: 10px; */
+  /* word-spacing: 20px; */
+  /* line-height: 2; */
+  text-indent: 100px;
+}
+
+li {
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.demo {
+  background-color: red;
+}
+
+.demo li {
+  background-color: greenyellow;
+  list-style-type: square;
+  list-style-type: circle;
+  list-style-type: disc;
+  list-style-type: none;
+  list-style-position: inside;
+  list-style-position: outside;
+
+}
+
+.demo1 {
+  background-color: pink;
+}
+
+.demo1 li {
+  background-color: blue;
+  list-style-type: lower-alpha;
+  list-style-type: upper-alpha;
+  list-style-type: lower-roman;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  list-style-position: outside;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+.demo3 {
+  font-family: ;
+}

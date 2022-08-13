@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-div {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; */
+
+
+}
+
+.demo {
+  display: flex;
+  float: right;
+}
+
+.red {
+  height: 50px;
+  width: 100vw;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.blue {
+  height: 50px;
+  width: 100vw;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+.pink {
+  height: 50px;
+  width: 100vw;
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+
+}
+
+.black {
+  height: 50px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+}
+
+.green {
+  height: 50px;
+  width: 100vw;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+
+}
+
+.orange {
+  height: 50px;
+  width: 100vw;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+
+}

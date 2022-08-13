@@ -1,0 +1,137 @@
+div {
+  padding: 25px;
+  /* float: right; */
+}
+
+.div1 {
+  background-color: red;
+  float: left;
+
+}
+
+.div2 {
+  background-color: green;
+  float: left;
+}
+
+.div3 {
+  background-color: yellow;
+  float: right;
+}
+
+.demo1 {
+  border: 2px solid red;
+}
+
+.demo1 img {
+  float: right;
+}
+
+.demo2 {
+  border: 2px solid green;
+  overflow: hidden;
+}
+
+.demo2 img {
+  float: right;
+}
+
+.tr {
+  clear: both;
+}
+
+/* .pick {
+  border: 2px solid red;
+  overflow: hidden;
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+
+}
+
+.pick p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  text-indent: 100px;
+  line-height: 1.5;
+  text-align: justify;
+
+
+}
+
+.pick img {
+  height: 400px;
+  width: 400px;
+  float: right;
+  margin-left: 100px;
+} */
+
+.text {
+  background-color: pink;
+  height: 100px;
+  width: 400px;
+  /* overflow: hidden; */
+  overflow: scroll;
+  padding: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  background-color: blue;
+  font-size: 30px;
+  text-decoration: line-through;
+  color: white;
+}
+
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  background-color: blue;
+
+}
+
+.demo3 {
+  height: 200px;
+  width: 300px;
+  border: 2px solid red;
+}
+
+.demo3:hover {
+  background-color: blue;
+}
+
+.demo4 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.demo4:hover {
+  background-image: url(img/img1.jpg);
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+
+}
+
+.demo5 {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  background-image: url(img/img1.jpg);
+}
+
+.demo5:hover {
+  border-radius: 50%;
+}

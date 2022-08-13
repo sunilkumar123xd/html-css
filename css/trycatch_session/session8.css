@@ -1,0 +1,89 @@
+body {
+    height: 3000px;
+}
+
+.navbar {
+    background-color: pink;
+    padding: 10px;
+    /* text-align: center; */
+    text-align: right;
+    position: fixed;
+    /* position: sticky; */
+    /* bottom: 0px; */
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: blue;
+}
+
+.main_div {
+    height: 200px;
+    width: 300px;
+    border: 3px solid red;
+    position: relative;
+    background-color: red;
+    /* margin-top: 120px; */
+    z-index: 0;
+
+}
+
+.inner_div {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+    position: absolute;
+    /* top: -30px; */
+    /* bottom: 50px; */
+    /* left: -100px; */
+    background-color: blue;
+
+}
+
+.img_div {
+    border: 3px solid black;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+}
+
+.text_div {
+    position: absolute;
+    top: 0px;
+    color: black;
+    display: none;
+}
+
+.img_div:hover .text_div {
+    display: block;
+}
+
+img {
+    display: block;
+}
+
+.scrolling_img {
+    position: sticky;
+    top: 0px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+div {
+    border-bottom: 2px solid red;
+    width: 50%;
+}

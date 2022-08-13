@@ -1,0 +1,294 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.images img {
+  height: 100vh;
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.main-div h1 {
+  font-size: 50px;
+  color: #434175;
+
+}
+
+.check {
+  color: blue;
+
+}
+
+.but {
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #5a5af3;
+  border: 0px solid;
+}
+
+.but a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.but:hover {
+  background-color: #434175;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  border: 2px solid #5a5af3;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #5a5af3;
+}
+
+.button:hover {
+  background-color: #5a5af3;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* session 2 */
+
+.text h1 {
+  color: #434175;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.text h4 {
+  color: gray;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.ican {
+  color: #5a5af3;
+}
+
+
+
+
+/* session 3 */
+
+.lorem {
+  height: 250px;
+  background-color: white;
+  box-shadow: 0px 8px 10px gainsboro;
+  padding: 20px;
+  transform: translateY 0.5s;
+
+}
+
+.lorem h2 {
+  margin-top: 20px;
+  color: #b9b9fa;
+  font-weight: 700;
+}
+
+.lorem h3 {
+  margin-top: 20px;
+  color: #434175;
+
+}
+
+.lorem p {
+  margin-top: 20px;
+}
+
+.lorem:hover {
+  background-color: #5a5af3;
+  color: white;
+  transform: scaleY(180deg);
+}
+
+.lorem:hover h3 {
+  color: white;
+}
+
+.lorem:hover h2 {
+  color: white;
+}
+
+/* session 4 */
+
+.container-happy {
+  background-color: #eeeef5;
+  width: 100vw;
+  height: 300px;
+}
+
+.para {
+  background-color: white;
+  height: 150px;
+  margin-top: 70px;
+
+}
+
+/* .para h1 {} */
+
+
+/* session 5 */
+
+.three img {
+  height: 100vh;
+  width: 40vw;
+}
+
+.maganic {
+  background-color: white;
+  box-shadow: 0px 10px 12px gainsboro;
+  height: 300px;
+}
+
+.logo {
+  color: #5a5af3;
+  height: 50px;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+/* session 6 */
+
+.demo {
+  background-color: white;
+  box-shadow: 0px 10px 12px gray;
+  padding: 20px;
+}
+
+.demo h3 {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.demos h3 {
+  font-size: 50px;
+}
+
+/* session 7 */
+
+
+
+
+
+.port {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.new li {
+  display: inline-block;
+
+}
+
+.new li a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: gray;
+
+
+}
+
+
+.inner {
+  position: relative;
+}
+
+.image img {
+  width: 400px;
+}
+
+
+.log {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+
+
+
+}
+
+/* session 8 */
+
+.gray {
+  background-color: rgb(246, 249, 250);
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.gray h1 {
+  position: relative;
+}
+
+.gray h1::after {
+  content: "";
+  height: 5px;
+  width: 70px;
+  border: 0px solid;
+  position: absolute;
+  background-color: #5a5af3;
+  margin-top: 50px;
+  /* margin-left: -90px; */
+
+
+
+
+}
+
+.team {
+  text-align: center;
+}
+
+.water img {
+  height: 300px;
+}
+
+
+.water {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  box-shadow: 0px 10px 12px gray;
+  margin-top: 50px;
+  position: relative;
+}
+
+.fb {
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  background-color: rgba(255, 255, 255, 0.500);
+
+
+}
+
+.fb a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  color: #434175;
+
+}
